@@ -6,7 +6,7 @@ function App() {
     return (
         <Container>
             <OneDigit />
-            <TwoDigit />
+            {/* <TwoDigit /> */}
         </Container>
     );
 }
