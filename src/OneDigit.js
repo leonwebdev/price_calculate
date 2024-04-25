@@ -20,7 +20,7 @@ const OneDigit = () => {
         });
     }
     return (
-        <Container>
+
             <ListGroup variant="flush">
                 {data.map((item, index) => (
                     <ListGroup.Item
