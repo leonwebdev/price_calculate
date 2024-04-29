@@ -8,9 +8,7 @@ function App() {
     return (
         <Container>
             {whichButton === "one" ? (
-                <Button variant="primary" onClick={() => setWhichButton("two")}>
-                    Two Digit
-                </Button>
+                <OneDigit />
             ) : (
                 <Button variant="primary" onClick={() => setWhichButton("one")}>
                     One Digit
