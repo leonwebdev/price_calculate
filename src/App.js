@@ -11,6 +11,7 @@ function App() {
                 onClick={() => setWhichButton(true)}
                 variant="primary"
                 className="m-2"
+            >
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
     );
