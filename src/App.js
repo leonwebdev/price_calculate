@@ -18,12 +18,13 @@ function App() {
                     position: "fixed",
                     bottom: "2rem",
                     right: "2rem",
-                    zIndex: 1000,width: "100px",
+                    zIndex: 1000,
+                    width: "100px",
                     height: "100px",
                     padding: "13px 18px",
                     borderRadius: "60px",
                     fontSize: "15px",
-                    text-align: center,
+                    textAlign: "center",
                 }}
             >
                 <i className="bi bi-shuffle"></i>
