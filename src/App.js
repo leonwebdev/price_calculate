@@ -1,12 +1,13 @@
+import React, { useState } from "react";
 import "./App.css";
 import OneDigit from "./OneDigit";
 import TwoDigit from "./TwoDigit";
-import { Container } from "react-bootstrap";
+import { Container, Button } from "react-bootstrap";
 function App() {
     return (
         <Container>
-            <OneDigit />
-            {/* <TwoDigit /> */}
+            {/* <OneDigit /> */}
+            <TwoDigit />
         </Container>
     );
 }
