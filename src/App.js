@@ -4,7 +4,7 @@ import OneDigit from "./OneDigit";
 import TwoDigit from "./TwoDigit";
 import { Container, Button } from "react-bootstrap";
 function App() {
-    const [whichButton, setWhichButton] = useState("one");
+    const [whichButton, setWhichButton] = useState(true);
     return (
         <Container>
             {whichButton === "one" ? (
