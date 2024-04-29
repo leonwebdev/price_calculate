@@ -8,7 +8,6 @@ function App() {
     return (
         <Container>
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
-            {/*  */}
         </Container>
     );
 }
