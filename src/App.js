@@ -13,7 +13,7 @@ function App() {
                         return !prev;
                     })
                 }
-                variant="primary"
+                variant="danger"
                 style={{
                     position: "fixed",
                     bottom: "2rem",
