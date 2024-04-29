@@ -12,6 +12,7 @@ function App() {
                 variant="primary"
                 className="m-2"
             >
+                One Digit
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
     );
