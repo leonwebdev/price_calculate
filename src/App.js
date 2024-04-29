@@ -8,6 +8,9 @@ function App() {
     return (
         <Container>
             <Button
+                onClick={() => setWhichButton(true)}
+                variant="primary"
+                className="m-2"
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
     );
