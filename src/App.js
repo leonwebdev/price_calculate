@@ -8,7 +8,11 @@ function App() {
     return (
         <Container>
             <Button
-                onClick={() => setWhichButton((prev) => {})}
+                onClick={() =>
+                    setWhichButton((prev) => {
+                        return !prev;
+                    })
+                }
                 variant="primary"
                 className="m-2"
             >
