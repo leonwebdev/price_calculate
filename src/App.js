@@ -13,6 +13,7 @@ function App() {
                 className="m-2"
             >
                 One Digit
+            </Button>
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
     );
