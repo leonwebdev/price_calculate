@@ -14,7 +14,12 @@ function App() {
                     })
                 }
                 variant="primary"
-                className="m-2"
+                style={{
+                    position: "fixed",
+                    bottom: "2rem",
+                    right: "2rem",
+                    zIndex: 1000,
+                }}
             >
                 One Digit
             </Button>
