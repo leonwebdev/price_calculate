@@ -7,6 +7,7 @@ function App() {
     const [whichButton, setWhichButton] = useState(true);
     return (
         <Container>
+            <Button
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
     );
