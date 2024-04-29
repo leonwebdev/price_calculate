@@ -22,7 +22,7 @@ function App() {
                     height: "100px",
                     padding: "13px 18px",
                     borderRadius: "60px",
-                    font-size: 15px,
+                    fontSize: "15px",
                     text-align: center,
                 }}
             >
