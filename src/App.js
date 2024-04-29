@@ -7,7 +7,16 @@ function App() {
     const [whichButton, setWhichButton] = useState("one");
     return (
         <Container>
-            {/* <OneDigit /> */}
+            {whichButton === "one" ? (
+                <Button variant="primary" onClick={() => setWhichButton("two")}>
+                    Two Digit
+                </Button>
+            ) : (
+                <Button variant="primary" onClick={() => setWhichButton("one")}>
+                    One Digit
+                </Button>
+            )}
+            {/*  */}
             <TwoDigit />
         </Container>
     );
