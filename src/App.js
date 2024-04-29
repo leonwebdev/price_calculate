@@ -18,7 +18,12 @@ function App() {
                     position: "fixed",
                     bottom: "2rem",
                     right: "2rem",
-                    zIndex: 1000,
+                    zIndex: 1000,width: 100px,
+                    height: 100px,
+                    padding: 13px 18px,
+                    border-radius: 60px,
+                    font-size: 15px,
+                    text-align: center,
                 }}
             >
                 <i className="bi bi-shuffle"></i>
