@@ -8,7 +8,7 @@ function App() {
     return (
         <Container>
             <Button
-                onClick={() => setWhichButton()}
+                onClick={() => setWhichButton(() => {})}
                 variant="primary"
                 className="m-2"
             >
