@@ -21,7 +21,7 @@ function App() {
                     zIndex: 1000,
                 }}
             >
-                One Digit
+                <i className="bi bi-shuffle"></i>
             </Button>
             {whichButton === true ? <OneDigit /> : <TwoDigit />}
         </Container>
