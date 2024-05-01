@@ -54,7 +54,7 @@ const OneDigit = () => {
                             // todo ===== Buy price ====================
                             // ? =====-----=====-----=====------=====
                             // ! ---------------------------------------
-                            [93].includes(index)
+                            [].includes(index)
                             ? "text-primary bg-warning fw-bold"
                             : ""
                     }
