@@ -46,7 +46,6 @@ const OneDigit = () => {
                             ? "text-warning bg-primary-subtle fw-bold"
                             : // ---------------------------------------
                             // ---------------------------------------
-                            // ---------------------------------------
                             // ? Previous close price --------------------
                             [40].includes(index)
                             ? "text-primary bg-danger-subtle fw-bold"
